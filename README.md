@@ -10,7 +10,7 @@
         <ol><li>Clone este repositório ou faça o download do arquivo .zip</li>
             <li>Instale as bibliotecas necessárias usando o pip:</li>
             pip install pygame numpy Pillow
-            <ol start="3"><li>Execute o programa main.py:</li></ol>
+            <li>Execute o programa main.py:</li></ol>
             <h2>Funcionamento</h2>
 <p>O programa começa lendo uma imagem usando a biblioteca PIL e convertendo-a para escala de cinza. Em seguida, a imagem é redimensionada para 
     um tamanho menor (80x80 pixels, neste caso). A matriz de brilho resultante é convertida em uma matriz de caracteres usando a função <code>matrix_to_chars</code>, que mapeia 
