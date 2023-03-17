@@ -26,4 +26,3 @@
                 <li><code>matrix</code> (array NumPy): a matriz de valores de brilho a ser mapeada.</li>
                 <li><code>chars</code> (list): a lista de caracteres a ser usada para mapear os valores de brilho.</li></ul>
                 <p>Retorna:</p><ul><li><code>char_matrix</code> (list): a matriz de caracteres resultante.</li></ul>
-                <h2>Créditos</h2>
