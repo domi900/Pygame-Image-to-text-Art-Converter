@@ -27,5 +27,3 @@
                 <li><code>chars</code> (list): a lista de caracteres a ser usada para mapear os valores de brilho.</li></ul>
                 <p>Retorna:</p><ul><li><code>char_matrix</code> (list): a matriz de caracteres resultante.</li></ul>
                 <h2>Créditos</h2>
-                <p>Este projeto foi criado por <a href="https://github.com/ChatGPT" target="_new">ChatGPT</a> com base em um código-fonte 
-                    encontrado em <a href="https://www.coderslegacy.com/python/python-pygame-ascii-art/" target="_new">coderslegacy.com</a>.</p></div>
