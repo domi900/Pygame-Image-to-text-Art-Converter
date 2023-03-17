@@ -9,7 +9,23 @@
         </ul><h2>Como usar</h2>
         <ol><li>Clone este repositório ou faça o download do arquivo .zip</li>
             <li>Instale as bibliotecas necessárias usando o pip:</li>
-
-<div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans justify-between rounded-t-md">
-                <button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs">pip install pygame numpy Pillow
-</code></div>
+            pip install pygame numpy Pillow
+            <ol start="3"><li>Execute o programa main.py:</li></ol>
+            <h2>Funcionamento</h2>
+<p>O programa começa lendo uma imagem usando a biblioteca PIL e convertendo-a para escala de cinza. Em seguida, a imagem é redimensionada para 
+    um tamanho menor (80x80 pixels, neste caso). A matriz de brilho resultante é convertida em uma matriz de caracteres usando a função <code>matrix_to_chars</code>, que mapeia 
+    cada valor de brilho para um caractere apropriado.</p>
+    <p>A matriz de caracteres é exibida na tela do Pygame usando a função <code>blit</code>, que desenha cada caractere na posição correta. 
+        A fonte a ser usada é definida na inicialização do Pygame.</p>
+        <h2>Funções</h2>
+        <h3><code>matrix_to_chars(matrix, chars)</code></h3>
+        <p>Esta função mapeia uma matriz de valores de brilho (0-255) para uma matriz de caracteres. A matriz de caracteres é construída usando
+             uma lista de caracteres passada como argumento. Cada caractere é atribuído a um intervalo de brilho de tamanho igual, de modo que os 
+             caracteres com menor brilho são atribuídos aos intervalos mais baixos e os caracteres com maior brilho aos intervalos mais altos.</p>
+             <p>Parâmetros:</p><ul>
+                <li><code>matrix</code> (array NumPy): a matriz de valores de brilho a ser mapeada.</li>
+                <li><code>chars</code> (list): a lista de caracteres a ser usada para mapear os valores de brilho.</li></ul>
+                <p>Retorna:</p><ul><li><code>char_matrix</code> (list): a matriz de caracteres resultante.</li></ul>
+                <h2>Créditos</h2>
+                <p>Este projeto foi criado por <a href="https://github.com/ChatGPT" target="_new">ChatGPT</a> com base em um código-fonte 
+                    encontrado em <a href="https://www.coderslegacy.com/python/python-pygame-ascii-art/" target="_new">coderslegacy.com</a>.</p></div>
